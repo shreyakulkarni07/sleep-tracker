@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+body{
+    background: url("../images/img6.jpg");
+    background-repeat: no-repeat ;
+    overflow-x: hidden;
+    color: white;
+    background-size: cover;
+}
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+#button1{
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    border-radius: 2px;
+}
+#button1:hover{
+    border-color: white;
+    color: black;
+}
+.nav-txtx{
+    font-family: 'ubuntu';
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+/* Title */
+.Title_section{
+padding-bottom: 2%;
+}
+
+
+.b-head{
+    font-family: 'Ubuntu';
+    line-height: 1;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    animation: text 3s 1;
+}
+@keyframes text{
+	0%{
+		color: white;
+		margin-bottom: -30px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -30px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -30px;
+	}
+
+}
+
+.btn1 {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Ubuntu';
+    color: #ffffff;
+    font-size: 20px;
+    background: gray;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    
+    .btn1:hover {
+    background: #a2a5a4;
+    text-decoration: none;
+    }
+
+    #button1:hover {
+        background: #a2a5a4;
+        text-decoration: none;
+        }
+
+  .Card-column{
+    margin: 0% 5%;
+    padding: 5% 1%;
+}
+.INFO{
+    color: black;
+    
+}
+
+footer{
+    text-align: center;
+}
+.s-ico{
+    margin: 20px 50px;
+    
+}
+.fb{
+    
+    margin: 20px 50px;
+}
+
+.tw{
+    
+    margin: 20px 50px;
+}
+
+.inst{
+    
+    margin: 20px 50px;
+}
+
+.ema{
+    
+    margin: 20px 50px;
+}
